@@ -56,8 +56,6 @@ header{
     
 }
 
-
-
 .logo{
     font-size: 1.5rem;
     cursor: pointer;
@@ -75,6 +73,11 @@ header{
 }
 .hero__texts{
     width: 70%;
+}
+.signup--btn{
+    text-decoration: none;
+    color: var(--secondaryColor);
+    background-color: var(--buttonColor);
 }
 
 
