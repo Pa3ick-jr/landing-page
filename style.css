@@ -32,33 +32,41 @@ header{
 
 }
 
-.logo, .hero__text-main{
-    color: var(--lightColor);
-}
-.navLink, .hero__text-secondary{
-    color: var(--secondaryColor);
-    font-size: 1.1rem;
-}
+
+
 .navLinks{
     list-style-type: none;
-    display: flex;
-    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
     
 }
 .navling{
     cursor: pointer;
+    float: left;
 }
 .navling:not(:last-child){
     margin-right: 0.8rem;
 }
 .navLink{
     text-decoration: none;
+    cursor: pointer;
     
+}
+.navLink,
+.hero__text-secondary {
+    color: var(--secondaryColor);
+    font-size: 1.1rem;
 }
 
 .logo{
     font-size: 1.5rem;
     cursor: pointer;
+}
+.logo,
+.hero__text-main {
+    color: var(--lightColor);
 }
 
 
@@ -72,12 +80,19 @@ header{
     
 }
 .hero__texts{
-    width: 70%;
+    width: 90%;
+    
+}
+.hero__text-secondary{
+    margin-top: 0.4rem;
+    margin-bottom: 0.8rem;
 }
 .signup--btn{
     text-decoration: none;
     color: var(--secondaryColor);
     background-color: var(--buttonColor);
+    padding: 0.2rem 0.8rem;
+    border-radius: 5px;
 }
 
 
