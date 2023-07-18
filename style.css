@@ -89,6 +89,7 @@ header{
     
     
 }
+
 .hero__texts{
     width: 90%;
     
@@ -190,5 +191,14 @@ header{
 .cta--btn:hover{
     color: var(--darkColor);
     background-color: var(--secondaryColor);
+}
+footer{
+    background-color: var(--darkColor);
+    padding-top: 4em;
+    padding-bottom: 4rem;
+}
+.cp{
+    text-align: center;
+    color: var(--secondaryColor);
 }
 
