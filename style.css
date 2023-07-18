@@ -143,4 +143,38 @@ header{
 
 }
 
+.cta{
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+.cta--content{
+    background-color: var(--buttonColor);
+    border-radius: 0.4em;
+    
+    
+}
+.ctab{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 5%;
+    
+}
+.cta--txt-main{
+    color: var(--lightColor);
+
+}
+
+.cta--txt-p{
+    color: var(--secondaryColor);
+}
+.cta--btn{
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--lightColor);
+    border: 1px solid var(--lightColor);
+    border-radius: 0.4em;
+    padding: 0.4em 1.5em;
+}
 
