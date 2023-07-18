@@ -102,7 +102,7 @@ header{
     text-decoration: none;
     color: var(--secondaryColor);
     background-color: var(--buttonColor);
-    padding: 0.2rem 0.8rem;
+    padding: 0.4rem 1.8em;
     border-radius: 0.3rem;
 }
 
@@ -185,7 +185,7 @@ header{
     color: var(--lightColor);
     border: 1px solid var(--lightColor);
     border-radius: 0.4em;
-    padding: 0.4em 1.5em;
+    padding: 0.4em 1.8em;
     
 }
 .cta--btn:hover{
