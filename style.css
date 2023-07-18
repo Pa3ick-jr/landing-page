@@ -4,6 +4,7 @@
     --secondaryColor: #e5e7eb;
     --lightColor: #f9faf8;
     --myFont: "Roboto", times, serif;
+    --anim: all, 0.3s, ease-in;
 }
 *{
     margin: 0;
@@ -12,7 +13,7 @@
 }
 body{
     font-family: var(--myFont);
-    transition: all 0.3s ease-in;
+    transition: var(--anim);
 }
 .container{
     margin-left: 10%;
@@ -54,15 +55,19 @@ header{
 .navling:not(:last-child){
     margin-right: 0.8rem;
 }
+.navLink,
+.hero__text-secondary {
+    color: var(--secondaryColor);
+    font-size: 1.1rem;
+}
 .navLink{
     text-decoration: none;
     cursor: pointer;
     
 }
-.navLink,
-.hero__text-secondary {
-    color: var(--secondaryColor);
-    font-size: 1.1rem;
+
+.navLink:hover{
+    color: var(--buttonColor);
 }
 
 .logo{
@@ -100,6 +105,10 @@ header{
     border-radius: 0.3rem;
 }
 
+.signup--btn:hover{
+    color: var(--darkColor);
+    background-color: var(--secondaryColor);
+}
 .abt--main-txt{
     text-align: center;
     color: var(--darkColor);
@@ -176,5 +185,10 @@ header{
     border: 1px solid var(--lightColor);
     border-radius: 0.4em;
     padding: 0.4em 1.5em;
+    
+}
+.cta--btn:hover{
+    color: var(--darkColor);
+    background-color: var(--secondaryColor);
 }
 
